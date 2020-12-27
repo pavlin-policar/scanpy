@@ -336,6 +336,7 @@ def test_matrixplot_obj(image_comparer):
         'cell_type',
         use_raw=False,
         title='added totals',
+        colorbar_title='cbtitle',
         return_fig=True,
     )
     plot.add_totals(sort='descending').style(edge_color='white', edge_lw=0.5).show()
